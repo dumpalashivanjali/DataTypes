@@ -16,13 +16,36 @@
 # # Input: Maths = 20, Physics = 38, Chemistry = 25 
 # # Output: Pass
 
-# def studentPerformance(math,phy,chem):
-#     if math>=35 or phy>=35 or chem>=35:
-#         return "Pass"
-#     else:
-#         return "Fail"
+def studentPerformance(math,phy,chem):
+    if math>=35 or phy>=35 or chem>=35:
+        return "Pass"
+    else:
+        return "Fail"
     
-# print(studentPerformance(20,38,25))
+print(studentPerformance(20,38,25))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -30,18 +53,18 @@
 # Input: Maths = 40, Physics = 20, Chemistry = 36
 # Output: Pass
 
-def studentPerformance(math, phy, chem):
-    count = 0    
-    if math >= 35:
-        count += 1
-    if phy >= 35:
-        count += 1
-    if chem >= 35:
-        count += 1
+# def studentPerformance(math, phy, chem):
+#     count = 0    
+#     if math >= 35:
+#         count += 1
+#     if phy >= 35:
+#         count += 1
+#     if chem >= 35:
+#         count += 1
         
-    if count >= 2:
-        return "Pass"
-    else:
-        return "Fail"
+#     if count >= 2:
+#         return "Pass"
+#     else:
+#         return "Fail"
 
-print(studentPerformance(40,20,36))
+# print(studentPerformance(40,20,36))
